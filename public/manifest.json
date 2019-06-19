@@ -1,0 +1,22 @@
+{
+  "short_name": "ReactRmdb",
+  "name": "ReactRmdb",
+  "description": "Progressive Web App that lists movies.",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

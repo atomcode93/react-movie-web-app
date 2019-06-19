@@ -1,0 +1,45 @@
+{
+  "extends": "./paths.json",
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "noUnusedLocals": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "jsx": "preserve",
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  },
+  "include": [
+    "src",
+    "__tests__"
+  ],
+  "exclude": [
+    "node_modules",
+    "build",
+    "dist",
+    "webpack",
+    "jest",
+    "src/**/*.test.*"
+  ]
+}

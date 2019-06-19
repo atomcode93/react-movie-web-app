@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Filters Actions should close modal 1`] = `
+Object {
+  "type": "CLOSE_MODAL",
+}
+`;

@@ -1,0 +1,55 @@
+{
+  "root": true,
+  "extends": [
+    "airbnb",
+    "prettier",
+    "prettier/react"
+  ],
+  "parser":  "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "react", "jsx-a11y", "import", "prettier", "styled-components-config", "react-hooks"],
+  "env": {
+    "jest": true,
+    "node": true,
+    "browser": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "jsx": true
+    }
+  },
+  "rules": {
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js",
+          "jsx",
+          "ts",
+          "tsx"
+        ]
+      }
+    ],
+    "prettier/prettier": "error",
+    "import/prefer-default-export": 0,
+    "camelcase": 0,
+    "react/no-array-index-key": 0,
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "react/prop-types": 0,
+    "import/no-unresolved": "off",
+    "no-unused-vars": 0,
+    "no-underscore-dangle": 0
+  },
+  "settings": {
+    "import/no-unresolved": "off",
+    "import/resolver": {
+      "node": {
+        "paths": ["src"]
+      }
+    }
+  }
+}

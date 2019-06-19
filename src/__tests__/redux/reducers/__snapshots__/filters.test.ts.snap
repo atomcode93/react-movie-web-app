@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Filters Reducer should reset filters 1`] = `
+Object {
+  "order": Object {
+    "label": "Descending",
+    "value": "desc",
+  },
+  "rating": Object {
+    "max": 10,
+    "min": 5,
+  },
+  "runtime": Object {
+    "max": 250,
+    "min": 45,
+  },
+  "sort_by": Object {
+    "label": "Rating",
+    "value": "vote_average",
+  },
+  "year": 2019,
+}
+`;
+
+exports[`Filters Reducer should update order filter 1`] = `
+Object {
+  "label": "Descending",
+  "value": "desc",
+}
+`;
+
+exports[`Filters Reducer should update rating filter 1`] = `
+Object {
+  "max": 10,
+  "min": 5,
+}
+`;
+
+exports[`Filters Reducer should update runtime filter 1`] = `
+Object {
+  "max": 250,
+  "min": 45,
+}
+`;
+
+exports[`Filters Reducer should update sort filter 1`] = `
+Object {
+  "label": "Rating",
+  "value": "vote_average",
+}
+`;

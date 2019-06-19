@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modals Reducer should close modal 1`] = `
+Object {
+  "args": null,
+  "open": false,
+  "type": null,
+}
+`;
+
+exports[`Modals Reducer should open modal 1`] = `
+Object {
+  "args": null,
+  "open": true,
+  "type": "video",
+}
+`;

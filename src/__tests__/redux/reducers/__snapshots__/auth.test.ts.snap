@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Auth Reducer should set initial state on authLogout 1`] = `
+Object {
+  "error": false,
+  "isAuthenticated": false,
+  "user": null,
+}
+`;
+
+exports[`Auth Reducer should set user 1`] = `
+Object {
+  "error": false,
+  "isAuthenticated": true,
+  "user": Object {
+    "payload": Object {
+      "user": Object {},
+    },
+    "type": "SET_USER_SUCCESS",
+  },
+}
+`;
