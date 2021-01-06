@@ -5,7 +5,7 @@
   "homepage": "https://react-rmdb.firebaseapp.com/",
   "dependencies": {
     "@loadable/component": "^5.7.0",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "connected-react-router": "^6.3.2",
     "cross-env": "^5.2.0",
     "enzyme": "^3.9.0",
